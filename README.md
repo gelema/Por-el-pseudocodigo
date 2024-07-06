@@ -1,2 +1,2 @@
-# a-tr-vez-de-pseudoc-digo
+# A travez del Pseudocodigo
 Ejericicios La programacion - A trávez de pseudocódigo
