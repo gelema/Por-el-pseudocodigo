@@ -33,44 +33,6 @@ rl.question('What is your age ? ', (age) => {
 })
  */
 
-/*
-//Pseudocodigo para ver si un numero es para saber si impar
-rl.question('Ingresa un número: ', (input) => {
-    const numero = parseInt(input);
-  
-    if (isNaN(numero)) {
-      console.log('Por favor, ingresa un número válido.');
-    } else {
-      if (numero % 2 === 0) {
-        console.log(`El número ${numero} es par.`);
-      } else {
-        console.log(`El número ${numero} es impar.`);
-      }
-    }
-  
-    rl.close();
-  });
-*/
-
-/*
-  rl.question('Ingresa el primer número: ', (input1) => {
-    rl.question('Ingresa el segundo número: ', (input2) => {
-      const numero1 = parseInt(input1);
-      const numero2 = parseInt(input2);
-  
-      if (isNaN(numero1) || isNaN(numero2)) {
-        console.log('Por favor, ingresa números válidos.');
-      } else {
-        const suma = numero1 + numero2;
-        console.log(`La suma de ${numero1} y ${numero2} es ${suma}.`);
-      }
-  
-      rl.close();
-    });
-  });
-
-*/
-
 rl.question('Ingresa un número: ', (input1) => {
     let num2 = 0;
     const num1 = parseInt(input1)
